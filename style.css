@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("/fonts/Circular_Std_Book.woff") format("woff");
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Circular Std Book;
+	font-size: 40px;
+	line-height: 48px;
+	color: #1c1c1c;
+}
+p,li {
+	font-family: Circular Std Book;
+	font-size: 22px;
+	line-height: 30px;
+  	color: #89CFF0;
+}
+a {
+	font-family: Circular Std Book;
+	font-size: 22px;
+	line-height: 30px;
+  	color: #1c1c1c;
+}
+div {
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
