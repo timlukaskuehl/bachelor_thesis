@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("/fonts/Circular_Std_Book.woff") format("woff");
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Circular Std Book;
+	font-size: 40px;
+	line-height: 48px;
+}
+a,p,li {
+	font-family: Circular Std Book;
+	font-size: 22px;
+	line-height: 30px;
+}
+a {
+  color: #89CFF0;
+}
