@@ -23,10 +23,35 @@ a {
 	line-height: 30px;
   	color: #1c1c1c;
 }
-div {
+.link {
+	font-family: Circular Std Book;
+	font-size: 22px;
+	line-height: 30px;
+  	color: #1c1c1c;
+	text-decoration: none;
+}
+.link::after {
+    content: '\2197';
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	margin-left: 5px;
+}
+.footer-bg {
+	background-color: lightgray;
+	border-radius: 20px;
+	max-width: 1200px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.spacing {
 	max-width: 1200px;
 	margin: auto;
 	padding-top: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+::selection {
+    background: #89CFF0;
+	color: #1c1c1c;
 }
