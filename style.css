@@ -10,18 +10,21 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 40px;
 	line-height: 48px;
 	color: #1c1c1c;
+	font-weight: 400;
 }
 p,li {
 	font-family: Circular Std Book;
 	font-size: 22px;
 	line-height: 30px;
   	color: #89CFF0;
+	font-weight: 400;
 }
 a {
 	font-family: Circular Std Book;
 	font-size: 22px;
 	line-height: 30px;
   	color: #1c1c1c;
+	font-weight: 400;
 }
 .link {
 	font-family: Circular Std Book;
@@ -29,6 +32,7 @@ a {
 	line-height: 30px;
   	color: #1c1c1c;
 	text-decoration: none;
+	font-weight: 400;
 }
 .link::after {
     content: '\2197';
@@ -37,9 +41,9 @@ a {
 	margin-left: 5px;
 }
 .footer-bg {
-	background-color: lightgray;
-	border-radius: 20px;
-	max-width: 1200px;
+	background-color: #EFEFEF;
+	border-radius: 10px;
+	max-width: 350px;
 	margin: auto;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -54,4 +58,20 @@ a {
 ::selection {
     background: #89CFF0;
 	color: #1c1c1c;
+}
+.youtube-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+.youtube-responsive iframe,
+.youtube-responsive object,
+.youtube-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
